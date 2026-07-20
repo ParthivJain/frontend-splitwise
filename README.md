@@ -6,6 +6,8 @@ A modern and responsive expense sharing web application inspired by **SplitWise*
 
 https://parthivjain.github.io/frontend-splitwise/
 
+> **Note:** The frontend is always available, but the backend runs on Render's free tier. The first API request after inactivity may take **30–60 seconds** while the backend wakes up.
+
 ---
 
 # ✨ Features
