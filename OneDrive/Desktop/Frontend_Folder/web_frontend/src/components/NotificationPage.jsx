@@ -193,7 +193,7 @@ const NotificationPage = ({ onClose, onFriendUpdate, onNotificationUpdate }) => 
                       </h3>
                     </div>
                     <p className="text-sm text-gray-600 dark:text-gray-300 mt-1 whitespace-pre-line">
-                        {notif.type === 'transaction_add' || 'settlement'
+                        {notif.type === 'transaction_add' || notif.type === 'settlement'
                             ? notif.message.replace(/friendId\s*:\s*\d+\s*\n?/, '') 
                             : notif.message}
                     </p>
